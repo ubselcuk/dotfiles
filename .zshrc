@@ -107,3 +107,4 @@ alias m="micro"
 
 alias mouse="xinput set-prop 'Logitech Wireless Mouse' 'libinput Accel Speed'  "
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias wttr='curl wttr.in/adana'
