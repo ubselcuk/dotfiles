@@ -184,10 +184,16 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id feh --bg-scale $HOME/Documents/princessmononoke/wallpapers/girl_shell_hare.jpg
 
-for_window [class="XTerm" instance="xterm"] floating enable # use xprop to find instance and class
+
 
 gaps inner 2
 
 # gaps outer 2      |
 # smart_gaps on     | look these
 # smart_borders on  |
+
+bindsym $mod+z exec firefox
+
+# start app floating
+for_window [class="feh"] floating enable
+for_window [class="XTerm" instance="xterm"] floating enable # use xprop to find instance and class
