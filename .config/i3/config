@@ -194,6 +194,13 @@ gaps inner 2
 
 bindsym $mod+z exec firefox
 
+bindsym $mod+shift+s exec i3lock -i Documents/princessmononoke/wallpapers/stand.png -t; feh -
+
 # start app floating
 for_window [class="feh"] floating enable
 for_window [class="XTerm" instance="xterm"] floating enable # use xprop to find instance and class
+
+
+# for multiple screens
+# exec --no-startup-id xrandr --output HDMI-A-0 --auto --left-of eDP --set TearFree on
+# look polybar config for second screen polybar.
