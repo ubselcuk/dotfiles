@@ -109,3 +109,12 @@ alias mouse="xinput set-prop 'Logitech Wireless Mouse' 'libinput Accel Speed'  "
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias wttr='curl wttr.in/adana'
 alias f='feh -g 500x500 --scale-down'
+alias ball='.local/bin/solaar'
+
+
+# HSTR configuration - add this to ~/.zshrc
+alias hh=hstr                    # hh to be alias for hstr
+setopt histignorespace           # skip cmds w/ leading space from history
+export HSTR_CONFIG=hicolor       # get more colors
+bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
+

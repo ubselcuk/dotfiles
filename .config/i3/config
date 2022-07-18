@@ -203,7 +203,7 @@ bindsym $mod+shift+s exec i3lock -i Documents/princessmononoke/wallpapers/stand.
 
 # start app floating
 for_window [class="feh"] floating enable
-# for_window [class="XTerm" instance="xterm"] floating enable # use xprop to find instance and class
+for_window [class="XTerm" instance="xterm"] floating enable # use xprop to find instance and class
 
 
 # for multiple screens
