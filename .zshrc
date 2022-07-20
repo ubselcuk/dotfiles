@@ -110,7 +110,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias wttr='curl wttr.in/adana'
 alias f='feh -g 500x500 --scale-down'
 alias ball='.local/bin/solaar'
-
+alias yt='ytfzf'
 
 # HSTR configuration - add this to ~/.zshrc
 alias hh=hstr                    # hh to be alias for hstr
