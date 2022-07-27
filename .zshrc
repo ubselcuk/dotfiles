@@ -111,6 +111,9 @@ alias wttr='curl wttr.in/adana'
 alias f='feh -g 500x500 --scale-down'
 alias ball='.local/bin/solaar'
 alias yt='ytfzf'
+alias aura='python3 Documents/auradio/auradio.py'
+alias nv='nvim'
+
 
 # HSTR configuration - add this to ~/.zshrc
 alias hh=hstr                    # hh to be alias for hstr
