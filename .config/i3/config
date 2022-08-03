@@ -196,8 +196,7 @@ exec --no-startup-id xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 
 
 exec --no-startup-id setxkbmap tr
 
-#exec --no-startup-id xrandr --output eDP --set TearFree on
-exec --no-startup-id xrandr --output eDP --set "freesync" 1
+exec --no-startup-id xrandr --output eDP --set TearFree on
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
